@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "username": "testuser",
+    "password": "testpass",
+    "favorites": [
+      1
+    ],
+    "mealplan": [
+      2
+    ]
+  },
+  {
+    "id": 2,
+    "username": "sarthak",
+    "password": "$2b$10$q2DEPHRW.qtTRlZZZer1aOo4H167KybC5EofJvP0ToLfHE5qutpfC",
+    "favorites": [],
+    "mealplan": []
+  }
+]

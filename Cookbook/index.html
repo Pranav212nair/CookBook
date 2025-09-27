@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chef’s Recipe Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="chef-bg">
+  <!-- Header / Hero -->
+  <header class="chef-header">
+    <div class="chef-brand">
+      <span class="chef-hat">👨‍🍳</span>
+      <h1>Chef’s Recipe Finder</h1>
+    </div>
+    <p class="chef-sub">Type ingredients, press Enter → we’ll find dishes you can cook.</p>
+  </header>
+
+  <!-- Search -->
+  <main class="container">
+    <section class="search-card">
+      <form id="search-form" autocomplete="off">
+        <div class="input-wrap">
+          <input id="search" type="text" placeholder="e.g. tomato, basil, garlic" />
+          <button type="submit" class="btn primary">Search</button>
+        </div>
+
+        <!-- Ingredient chips -->
+        <div id="chips" class="chips"></div>
+
+        <!-- Quick filters -->
+        <div class="filters">
+          <select id="cuisine-filter" class="select">
+            <option value="">Any cuisine</option>
+            <option>Italian</option>
+            <option>Indian</option>
+            <option>Mexican</option>
+            <option>American</option>
+            <option>Chinese</option>
+            <option>Thai</option>
+          </select>
+          <select id="time-filter" class="select">
+            <option value="">Any time</option>
+            <option value="15">≤ 15 min</option>
+            <option value="30">≤ 30 min</option>
+            <option value="45">≤ 45 min</option>
+            <option value="60">≤ 60 min</option>
+          </select>
+        </div>
+      </form>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="grid"></section>
+
+    <!-- Empty state -->
+    <section id="empty" class="empty hidden">
+      <div class="empty-box">
+        <div class="emoji">🍳</div>
+        <h3>No recipes yet</h3>
+        <p>Start by adding a few ingredients above. We’ll match recipes you can cook now.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer actions -->
+  <footer class="footer-actions">
+    <button class="btn" onclick="location.href='mainpage.php'">🏠 Back to Home</button>
+    <button class="btn" onclick="location.href='view_recipe.php'">📖 My Saved Recipes</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

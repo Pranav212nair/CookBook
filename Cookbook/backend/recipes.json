@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Veggie Pizza",
+    "ingredients": ["flour", "yeast", "water", "salt", "tomato", "cheese", "bell pepper", "onion"],
+    "instructions": "Mix dough, add toppings, bake at 220C for 15 min.",
+    "image": "pizza.jpg",
+    "url": "#"
+  },
+  {
+    "id": 2,
+    "name": "Momo",
+    "ingredients": ["flour", "water", "salt", "cabbage", "carrot", "onion", "ginger"],
+    "instructions": "Prepare dough, fill, steam for 10 min.",
+    "image": "momo.jpg",
+    "url": "#"
+  },
+  {
+    "id": 3,
+    "name": "Burger",
+    "ingredients": ["bun", "lettuce", "tomato", "cheese", "patty", "onion"],
+    "instructions": "Assemble ingredients, grill patty, serve.",
+    "image": "burger.jpg",
+    "url": "#"
+  }
+]
